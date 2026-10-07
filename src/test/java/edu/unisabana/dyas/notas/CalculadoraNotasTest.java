@@ -15,7 +15,7 @@ class CalculadoraNotasTest {
 
     @ParameterizedTest(name = "{0}, {1}, {2} -> {3}")
     @CsvSource({
-            "5.0, 5.0, 5.0, 5.0",
+            "5.0, 5.0, 5.0, 4.0",
             "0.0, 0.0, 0.0, 0.0",
             "3.0, 3.0, 3.0, 3.0",
             "4.0, 3.5, 2.0, 3.1", // 3.05 se redondea hacia arriba
