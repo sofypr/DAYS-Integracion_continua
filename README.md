@@ -1,3 +1,5 @@
+[![CI](https://github.com/sofypr/DAYS-Integracion_continua/actions/workflows/ci.yml/badge.svg)](https://github.com/sofypr/DAYS-Integracion_continua/actions/workflows/ci.yml)
+
 # Taller de Integración Continua con GitHub Actions
 
 Este taller tiene como objetivo aprender a **configurar, ejecutar e interpretar un pipeline de Integración Continua (CI)** que, en cada commit, compile el proyecto, ejecute las pruebas automatizadas y **bloquee el cambio si la calidad no cumple el umbral acordado**.
